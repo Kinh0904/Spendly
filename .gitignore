@@ -1,3 +1,22 @@
+#Android Studio and Gradle
+.gradle/
+/build/
+/app/build/
+*.iml
+.idea/
+
+#Local configuration (SDK Path)
+local.properties
+
+#Signing keys and Secrets
+*.jks
+*.keystore
+google-services.json
+
+#OS generation Files
+.DS_Store
+Thumbs.db
+
 # Compiled class file
 *.class
 
