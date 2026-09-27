@@ -3,14 +3,14 @@ plugins {
 }
 
 android {
-    namespace = "com.example.spending"
+    namespace = "com.example.spendly"
     compileSdk {
         version = release(37)
     }
 
     defaultConfig {
-        applicationId = "com.example.spending"
-        minSdk = 31
+        applicationId = "com.example.spendly"
+        minSdk = 26
         targetSdk = 37
         versionCode = 1
         versionName = "1.0"

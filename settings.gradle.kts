@@ -22,6 +22,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Spending"
+rootProject.name = "Spendly"
 include(":app")
  
