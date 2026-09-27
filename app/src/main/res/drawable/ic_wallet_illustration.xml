@@ -1,0 +1,34 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <!-- Outer Soft Mint Background Circle -->
+    <path
+        android:fillColor="#E8F5E9"
+        android:pathData="M60,0A60,60 0,1 0,120 60A60,60 0,0 0,60 0z" />
+    <!-- Inner Light Green Circle -->
+    <path
+        android:fillColor="#C8E6C9"
+        android:pathData="M60,10A50,50 0,1 0,110 60A50,50 0,0 0,60 10z" />
+    <!-- Wallet Shape -->
+    <path
+        android:fillColor="#2E7D32"
+        android:pathData="M25,40h60c5.5,0 10,4.5 10,10v30c0,5.5 -4.5,10 -10,10H25c-5.5,0 -10,-4.5 -10,-10V50c0,-5.5 4.5,-10 10,-10z" />
+    <!-- Wallet Pocket / Flap -->
+    <path
+        android:fillColor="#1B5E20"
+        android:pathData="M75,55h20v20H75c-5.5,0 -10,-4.5 -10,-10s4.5,-10 10,-10z" />
+    <!-- Lock / Coin Circle Button -->
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M80,60a5,5 0,1 0,0 10a5,5 0,0 0,0 -10z" />
+    <!-- Card / Note protruding -->
+    <path
+        android:fillColor="#A5D6A7"
+        android:pathData="M35,30h40v15H35z" />
+    <!-- Coins / Sparkle -->
+    <path
+        android:fillColor="#2E7D32"
+        android:pathData="M40,22l2,5 5,2 -5,2 -2,5 -2,-5 -5,-2 5,-2z" />
+</vector>
