@@ -1,3 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Spendly</string>
+    <string name="app_tagline">Quản lý chi tiêu thông minh cho cuộc sống tốt hơn</string>
+
+    <!-- Login Screen -->
+    <string name="login_welcome_title">Chào mừng trở lại!</string>
+    <string name="login_welcome_desc">Đăng nhập để tiếp tục quản lý chi tiêu của bạn cùng Spendly</string>
+    <string name="hint_email_or_phone">Email hoặc số điện thoại</string>
+    <string name="hint_password">Mật khẩu</string>
+    <string name="remember_login">Lưu đăng nhập</string>
+    <string name="forgot_password">Quên mật khẩu?</string>
+    <string name="btn_login">Đăng nhập</string>
+    <string name="divider_or_login">Hoặc đăng nhập bằng</string>
+    <string name="social_google">Google</string>
+    <string name="social_facebook">Facebook</string>
+    <string name="no_account_prompt">Chưa có tài khoản?</string>
+    <string name="register_now">Đăng ký ngay</string>
+
+    <!-- Errors & Toast Messages -->
+    <string name="err_empty_email">Vui lòng nhập email hoặc số điện thoại</string>
+    <string name="err_empty_password">Vui lòng nhập mật khẩu</string>
+    <string name="err_short_password">Mật khẩu phải có ít nhất 6 ký tự</string>
+    <string name="msg_login_success">Đăng nhập thành công!</string>
+    <string name="cd_spendly_illustration">Minh họa quản lý tài chính Spendly</string>
+
+    <!-- Home Header -->
+    <string name="greeting_user">Chào Kinh!</string>
+    <string name="greeting_wish">Chúc bạn một ngày làm việc hiệu quả và chi tiêu hợp lý!</string>
+    <string name="day_segment_morning">☀️ Buổi sáng</string>
+    <string name="current_date_sample">Thứ Hai, 28/09/2026</string>
+    <string name="current_time_sample">08:30</string>
+
+    <!-- Expense Overview -->
+    <string name="today_expense_title">TỔNG CHI TIÊU HÔM NAY</string>
+    <string name="today_expense_amount">178.000 đ</string>
+    <string name="today_expense_count">3 khoản chi hôm nay</string>
+    <string name="daily_limit_status">59% hạn mức ngày (300.000 đ)</string>
+    <string name="sample_limit_sub">Đã dùng 178k / Hạn mức 300k đ</string>
+    <string name="sample_limit_percent">59%</string>
+    <string name="comparison_yesterday">Thấp hơn 35% so với hôm qua</string>
+
+    <!-- Categories -->
+    <string name="cat_food">Ăn uống</string>
+    <string name="cat_transport">Di chuyển</string>
+    <string name="cat_shopping">Mua sắm</string>
+    <string name="cat_other">Khác</string>
+
+    <string name="cat_food_emoji">🍚 Ăn uống</string>
+    <string name="cat_transport_emoji">🛵 Di chuyển</string>
+    <string name="cat_shopping_emoji">🛍️ Mua sắm</string>
+    <string name="cat_other_emoji">📦 Khác</string>
+
+    <string name="sample_food_amount">80.000 đ</string>
+    <string name="sample_transport_amount">10.000 đ</string>
+    <string name="sample_shopping_amount">88.000 đ</string>
+    <string name="sample_other_amount">0 đ</string>
+
+    <!-- Suggestion -->
+    <string name="suggestion_title">Gợi ý thông minh hôm nay</string>
+    <string name="suggestion_content">Bạn đã chi tiêu ít hơn 35% so với hôm qua. Hãy tiếp tục duy trì thói quen chi tiêu hợp lý nhé!</string>
+
+    <!-- Recent Activity -->
+    <string name="recent_activity_title">Hoạt động gần đây</string>
+    <string name="view_all">Xem tất cả ></string>
+
+    <string name="tx_breakfast_title">Ăn sáng</string>
+    <string name="tx_breakfast_sub">Ăn uống • 08:15</string>
+    <string name="tx_breakfast_amount">-45.000 đ</string>
+
+    <string name="tx_parking_title">Gửi xe</string>
+    <string name="tx_parking_sub">Di chuyển • 07:50</string>
+    <string name="tx_parking_amount">-10.000 đ</string>
+
+    <string name="tx_coffee_title">Cà phê</string>
+    <string name="tx_coffee_sub">Ăn uống • 07:30</string>
+    <string name="tx_coffee_amount">-35.000 đ</string>
+
+    <string name="tx_supplies_title">Mua đồ dùng</string>
+    <string name="tx_supplies_sub">Mua sắm • Hôm qua 20:15</string>
+    <string name="tx_supplies_amount">-88.000 đ</string>
+
+    <!-- Quick Utilities -->
+    <string name="quick_utilities_title">Tiện ích nhanh</string>
+    <string name="util_add_expense_title">Nhập chi tiêu</string>
+    <string name="util_add_expense_desc">Ghi chép nhanh khoản thu chi</string>
+
+    <string name="util_today_suggestion_title">Gợi ý hôm nay</string>
+    <string name="util_today_suggestion_desc">Lời khuyên tài chính thông minh</string>
+
+    <string name="util_roadmap_title">Lộ trình chi tiêu</string>
+    <string name="util_roadmap_desc">Kế hoạch &amp; hạn mức tháng</string>
+
+    <string name="util_bank_analysis_title">Phân tích thông báo ngân hàng</string>
+    <string name="util_bank_analysis_desc">Tự động đọc SMS/Notification để gợi ý ghi chép</string>
+    <string name="util_bank_analysis_disclaimer">🔒 Tùy chọn • Chỉ đọc thông báo giao dịch để gợi ý • Không đăng nhập bank, không quản lý số dư, không chuyển tiền</string>
+
+    <string name="util_statistics_title">Xem thống kê</string>
+    <string name="util_statistics_desc">Báo cáo thu chi trực quan</string>
+    <string name="tag_optional">Tùy chọn</string>
+
+    <!-- Bottom Navigation -->
+    <string name="nav_home">Trang chủ</string>
+    <string name="nav_expense">Chi tiêu</string>
+    <string name="nav_add">Thêm</string>
+    <string name="nav_stats">Thống kê</string>
+    <string name="nav_settings">Cài đặt</string>
+
+    <!-- Content Descriptions -->
+    <string name="cd_avatar">Avatar người dùng</string>
+    <string name="cd_trending_down">Biểu tượng xu hướng chi tiêu giảm</string>
+    <string name="cd_lightbulb">Biểu tượng gợi ý</string>
+    <string name="cd_close">Đóng gợi ý</string>
+    <string name="cd_food">Biểu tượng Ăn uống</string>
+    <string name="cd_transport">Biểu tượng Di chuyển</string>
+    <string name="cd_shopping">Biểu tượng Mua sắm</string>
+    <string name="cd_other">Biểu tượng Khác</string>
+    <string name="cd_add">Biểu tượng thêm</string>
+    <string name="cd_chevron">Biểu tượng xem thêm</string>
+    <string name="cd_shield">Biểu tượng bảo mật</string>
 </resources>
