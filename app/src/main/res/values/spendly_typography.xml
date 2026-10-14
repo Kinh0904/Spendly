@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Source: Spendly-Figma/code.js; Figma px mapped to Android dp/sp. -->
+    <style name="TextAppearance.Spendly.Display" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="fontFamily">sans-serif</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/spendly_text_display</item>
+        <item name="android:lineHeight">@dimen/spendly_line_display</item>
+        <item name="lineHeight">@dimen/spendly_line_display</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textColor">@color/spendly_text</item>
+    </style>
+    <style name="TextAppearance.Spendly.Heading" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="fontFamily">sans-serif</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/spendly_text_heading</item>
+        <item name="android:lineHeight">@dimen/spendly_line_heading</item>
+        <item name="lineHeight">@dimen/spendly_line_heading</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textColor">@color/spendly_text</item>
+    </style>
+    <style name="TextAppearance.Spendly.Title" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="fontFamily">sans-serif</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/spendly_text_title</item>
+        <item name="android:lineHeight">@dimen/spendly_line_title</item>
+        <item name="lineHeight">@dimen/spendly_line_title</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textColor">@color/spendly_text</item>
+    </style>
+    <style name="TextAppearance.Spendly.Subtitle" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="fontFamily">sans-serif-medium</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/spendly_text_subtitle</item>
+        <item name="android:lineHeight">@dimen/spendly_line_subtitle</item>
+        <item name="lineHeight">@dimen/spendly_line_subtitle</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textColor">@color/spendly_text</item>
+    </style>
+    <style name="TextAppearance.Spendly.Body" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/spendly_text_body</item>
+        <item name="android:lineHeight">@dimen/spendly_line_body</item>
+        <item name="lineHeight">@dimen/spendly_line_body</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textColor">@color/spendly_text</item>
+    </style>
+    <style name="TextAppearance.Spendly.Label" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="fontFamily">sans-serif-medium</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/spendly_text_label</item>
+        <item name="android:lineHeight">@dimen/spendly_line_label</item>
+        <item name="lineHeight">@dimen/spendly_line_label</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textColor">@color/spendly_text</item>
+    </style>
+    <style name="TextAppearance.Spendly.Caption" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/spendly_text_caption</item>
+        <item name="android:lineHeight">@dimen/spendly_line_caption</item>
+        <item name="lineHeight">@dimen/spendly_line_caption</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textColor">@color/spendly_muted</item>
+    </style>
+    <style name="TextAppearance.Spendly.Micro" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="fontFamily">sans-serif-medium</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/spendly_text_micro</item>
+        <item name="android:lineHeight">@dimen/spendly_line_micro</item>
+        <item name="lineHeight">@dimen/spendly_line_micro</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textColor">@color/spendly_muted</item>
+    </style>
+</resources>
