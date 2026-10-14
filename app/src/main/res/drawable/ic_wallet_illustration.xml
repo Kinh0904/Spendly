@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp" android:height="24dp"
+    android:viewportWidth="120" android:viewportHeight="120">
+    <path android:pathData="M60,0A60,60 0,1 0,120 60A60,60 0,0 0,60 0z" android:fillColor="@color/spendly_subtle" />
+    <path android:pathData="M60,10A50,50 0,1 0,110 60A50,50 0,0 0,60 10z" android:fillColor="@color/spendly_chart2" />
+    <path android:pathData="M25,40h60c5.5,0 10,4.5 10,10v30c0,5.5 -4.5,10 -10,10H25c-5.5,0 -10,-4.5 -10,-10V50c0,-5.5 4.5,-10 10,-10z" android:fillColor="@color/spendly_primary" />
+    <path android:pathData="M75,55h20v20H75c-5.5,0 -10,-4.5 -10,-10s4.5,-10 10,-10z" android:fillColor="@color/spendly_hero" />
+    <path android:pathData="M80,60a5,5 0,1 0,0 10a5,5 0,0 0,0 -10z" android:fillColor="@color/spendly_on_hero" />
+    <path android:pathData="M35,30h40v15H35z" android:fillColor="@color/spendly_chart2" />
+    <path android:pathData="M40,22l2,5 5,2 -5,2 -2,5 -2,-5 -5,-2 5,-2z" android:fillColor="@color/spendly_primary" />
+</vector>

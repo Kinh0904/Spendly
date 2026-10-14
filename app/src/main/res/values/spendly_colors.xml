@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Source: Spendly-Figma/code.js; Figma px mapped to Android dp/sp. -->
+    <color name="spendly_bg">@color/spendly_bg_light</color>
+    <color name="spendly_surface">@color/spendly_surface_light</color>
+    <color name="spendly_subtle">@color/spendly_subtle_light</color>
+    <color name="spendly_primary">@color/spendly_primary_light</color>
+    <color name="spendly_primary_pressed">@color/spendly_primary_pressed_light</color>
+    <color name="spendly_on_primary">@color/spendly_on_primary_light</color>
+    <color name="spendly_text">@color/spendly_text_light</color>
+    <color name="spendly_muted">@color/spendly_muted_light</color>
+    <color name="spendly_border">@color/spendly_border_light</color>
+    <color name="spendly_success">@color/spendly_success_light</color>
+    <color name="spendly_success_bg">@color/spendly_success_bg_light</color>
+    <color name="spendly_danger">@color/spendly_danger_light</color>
+    <color name="spendly_danger_bg">@color/spendly_danger_bg_light</color>
+    <color name="spendly_warning">@color/spendly_warning_light</color>
+    <color name="spendly_warning_bg">@color/spendly_warning_bg_light</color>
+    <color name="spendly_hero">@color/spendly_hero_light</color>
+    <color name="spendly_on_hero">@color/spendly_on_hero_light</color>
+    <color name="spendly_disabled">@color/spendly_disabled_light</color>
+    <color name="spendly_on_disabled">@color/spendly_on_disabled_light</color>
+    <color name="spendly_chart2">@color/spendly_chart2_light</color>
+</resources>
