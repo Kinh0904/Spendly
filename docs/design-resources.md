@@ -52,5 +52,8 @@ Trên thiết bị tùy biến font hệ thống, kiểu chữ thực tế có t
 
 Ảnh preview/tổng quan không phải asset trong UI nên không đóng gói vào APK.
 Launcher mặc định được giữ nguyên vì plugin cũng bỏ qua hai icon launcher.
-Tài nguyên được chuẩn bị cho việc dựng màn hình; chưa thay layout Hello World
-bằng các màn hình Figma. Chế độ tối dùng cùng base theme với màu override.
+Tài nguyên được chuẩn bị cho việc dựng màn hình. Các màn hình đăng nhập/trang chủ
+đã có trên `develop` được giữ lại khi hợp nhất; chưa chuyển toàn bộ layout cũ
+sang thiết kế Figma. `Theme.Spendly` là theme chính; `Theme.Spending` là tên tương
+thích với mã cũ. Giữ `Widget.Spendly.CardView` cho các layout hiện có.
+Chế độ tối dùng cùng base theme với màu override.

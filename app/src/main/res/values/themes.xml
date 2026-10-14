@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Source: Spendly-Figma/code.js; Figma px mapped to Android dp/sp. -->
-    <style name="Base.Theme.Spending" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Base.Theme.Spendly" parent="Theme.Material3.DayNight.NoActionBar">
         <item name="colorPrimary">@color/spendly_primary</item>
         <item name="colorOnPrimary">@color/spendly_on_primary</item>
         <item name="colorPrimaryContainer">@color/spendly_subtle</item>
@@ -34,5 +34,18 @@
         <item name="textAppearanceTitleLarge">@style/TextAppearance.Spendly.Title</item>
         <item name="textAppearanceLabelLarge">@style/TextAppearance.Spendly.Label</item>
     </style>
-    <style name="Theme.Spending" parent="Base.Theme.Spending" />
+    <style name="Theme.Spendly" parent="Base.Theme.Spendly" />
+
+    <!-- Compatibility aliases for layouts using the previous application name. -->
+    <style name="Base.Theme.Spending" parent="Base.Theme.Spendly" />
+    <style name="Theme.Spending" parent="Theme.Spendly" />
+
+    <!-- Existing home/login layouts from develop depend on this widget style. -->
+    <style name="Widget.Spendly.CardView" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardCornerRadius">20dp</item>
+        <item name="cardElevation">2dp</item>
+        <item name="cardBackgroundColor">@color/surface_white</item>
+        <item name="strokeColor">@color/card_stroke</item>
+        <item name="strokeWidth">1dp</item>
+    </style>
 </resources>
