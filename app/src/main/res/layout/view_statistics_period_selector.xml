@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <!-- Period Selector (Tuần | Năm | Tháng) -->
+    <LinearLayout
+        android:id="@+id/layoutPeriodSelector"
+        android:layout_width="wrap_content"
+        android:layout_height="44dp"
+        android:background="@drawable/bg_statistics_selector"
+        android:orientation="horizontal"
+        android:padding="4dp">
+
+        <TextView
+            android:id="@+id/btnPeriodWeek"
+            android:layout_width="72dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_statistics_pill_active"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:text="Tuần"
+            android:textColor="#27243A"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/btnPeriodYear"
+            android:layout_width="72dp"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:text="Năm"
+            android:textColor="#7A768F"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/btnPeriodMonth"
+            android:layout_width="72dp"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:text="Tháng"
+            android:textColor="#7A768F"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+    <!-- Chart Type Selector (Cột | Tròn) -->
+    <LinearLayout
+        android:id="@+id/layoutChartTypeSelector"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/bg_statistics_selector"
+        android:orientation="horizontal"
+        android:padding="4dp">
+
+        <TextView
+            android:id="@+id/btnChartTypeBar"
+            android:layout_width="64dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_statistics_pill_active"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:text="Cột"
+            android:textColor="#27243A"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/btnChartTypePie"
+            android:layout_width="64dp"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:text="Tròn"
+            android:textColor="#7A768F"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="72dp"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:background="@android:color/white">
+
+    <include
+        layout="@layout/item_toolbar_home"
+        android:id="@+id/nav_home" />
+
+    <include
+        layout="@layout/item_toolbar_history"
+        android:id="@+id/nav_history" />
+
+    <include
+        layout="@layout/item_toolbar_add"
+        android:id="@+id/nav_add" />
+
+    <include
+        layout="@layout/item_toolbar_statistics"
+        android:id="@+id/nav_statistics" />
+
+    <include
+        layout="@layout/item_toolbar_settings"
+        android:id="@+id/nav_settings" />
+
+</LinearLayout>

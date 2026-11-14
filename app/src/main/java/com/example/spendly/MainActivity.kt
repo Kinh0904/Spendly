@@ -5,11 +5,15 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import com.example.spendly.presentation.auth.login.LoginFragment
+import androidx.fragment.app.Fragment
+import com.example.spendly.presentation.home.HomeFragment
+import com.example.spendly.utils.ThemeManager
 
 class MainActivity : AppCompatActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        ThemeManager.initTheme(this)
         enableEdgeToEdge()
         setContentView(R.layout.activity_main)
 
@@ -20,9 +24,17 @@ class MainActivity : AppCompatActivity() {
         }
 
         if (savedInstanceState == null) {
-            supportFragmentManager.beginTransaction()
-                .replace(R.id.fragment_container, LoginFragment())
-                .commit()
+            navigateToFragment(HomeFragment())
         }
+    }
+
+    fun navigateToFragment(fragment: Fragment) {
+        supportFragmentManager.beginTransaction()
+            .setCustomAnimations(
+                android.R.anim.fade_in,
+                android.R.anim.fade_out,
+            )
+            .replace(R.id.fragment_container, fragment)
+            .commit()
     }
 }

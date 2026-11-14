@@ -93,7 +93,7 @@
 
     <string name="util_bank_analysis_title">Phân tích thông báo ngân hàng</string>
     <string name="util_bank_analysis_desc">Tự động đọc SMS/Notification để gợi ý ghi chép</string>
-    <string name="util_bank_analysis_disclaimer">🔒 Tùy chọn • Chỉ đọc thông báo giao dịch để gợi ý • Không đăng nhập bank, không quản lý số dư, không chuyển tiền</string>
+    <string name="util_bank_analysis_disclaimer">Tùy chọn • Chỉ đọc thông báo giao dịch để gợi ý • Không đăng nhập bank, không quản lý số dư, không chuyển tiền</string>
 
     <string name="util_statistics_title">Xem thống kê</string>
     <string name="util_statistics_desc">Báo cáo thu chi trực quan</string>
@@ -101,9 +101,9 @@
 
     <!-- Bottom Navigation -->
     <string name="nav_home">Trang chủ</string>
-    <string name="nav_expense">Chi tiêu</string>
+    <string name="nav_history">Lịch sử</string>
     <string name="nav_add">Thêm</string>
-    <string name="nav_stats">Thống kê</string>
+    <string name="nav_statistics">Thống kê</string>
     <string name="nav_settings">Cài đặt</string>
 
     <!-- Content Descriptions -->
