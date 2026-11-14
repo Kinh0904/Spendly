@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/Widget.Material3.CardView.Elevated"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="#FFFFFF"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="0dp"
+    app:strokeWidth="0dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingHorizontal="16dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="24dp">
+
+        <!-- Custom Bar Chart View -->
+        <com.example.spendly.presentation.statistics.chart.BarChartView
+            android:id="@+id/barChartView"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:visibility="visible" />
+
+        <!-- Custom Pie Chart View -->
+        <com.example.spendly.presentation.statistics.chart.PieChartView
+            android:id="@+id/pieChartView"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:visibility="gone" />
+
+        <!-- Subtitle Label -->
+        <TextView
+            android:id="@+id/tvChartTotalLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Tổng chi tuần này"
+            android:textColor="#7A768F"
+            android:textSize="12sp" />
+
+        <!-- Total Amount -->
+        <TextView
+            android:id="@+id/tvChartTotalAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="960.000 đ"
+            android:textColor="#27243A"
+            android:textSize="32sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>
