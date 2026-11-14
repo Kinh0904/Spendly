@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Source: Spendly-Figma/code.js; Figma px mapped to Android dp/sp. -->
+    <color name="spendly_bg_light">#F4F7FC</color>
+    <color name="spendly_bg_dark">#0B1220</color>
+    <color name="spendly_surface_light">#FFFFFF</color>
+    <color name="spendly_surface_dark">#131F32</color>
+    <color name="spendly_subtle_light">#EAF1FF</color>
+    <color name="spendly_subtle_dark">#1D304B</color>
+    <color name="spendly_primary_light">#2563EB</color>
+    <color name="spendly_primary_dark">#89B4FF</color>
+    <color name="spendly_primary_pressed_light">#1D4ED8</color>
+    <color name="spendly_primary_pressed_dark">#A8C8FF</color>
+    <color name="spendly_on_primary_light">#FFFFFF</color>
+    <color name="spendly_on_primary_dark">#092858</color>
+    <color name="spendly_text_light">#16243A</color>
+    <color name="spendly_text_dark">#EDF3FF</color>
+    <color name="spendly_muted_light">#5B6B82</color>
+    <color name="spendly_muted_dark">#A9BAD2</color>
+    <color name="spendly_border_light">#DCE5F1</color>
+    <color name="spendly_border_dark">#2B3D57</color>
+    <color name="spendly_success_light">#087F5B</color>
+    <color name="spendly_success_dark">#63DDB1</color>
+    <color name="spendly_success_bg_light">#E2F5ED</color>
+    <color name="spendly_success_bg_dark">#153B35</color>
+    <color name="spendly_danger_light">#BA3344</color>
+    <color name="spendly_danger_dark">#FF9DA7</color>
+    <color name="spendly_danger_bg_light">#FFF0F1</color>
+    <color name="spendly_danger_bg_dark">#43232D</color>
+    <color name="spendly_warning_light">#925600</color>
+    <color name="spendly_warning_dark">#FFD58A</color>
+    <color name="spendly_warning_bg_light">#FFF3DC</color>
+    <color name="spendly_warning_bg_dark">#3D301D</color>
+    <color name="spendly_hero_light">#1756CA</color>
+    <color name="spendly_hero_dark">#17479A</color>
+    <color name="spendly_on_hero_light">#FFFFFF</color>
+    <color name="spendly_on_hero_dark">#FFFFFF</color>
+    <color name="spendly_disabled_light">#E3E9F2</color>
+    <color name="spendly_disabled_dark">#26344A</color>
+    <color name="spendly_on_disabled_light">#65748A</color>
+    <color name="spendly_on_disabled_dark">#A1AFC2</color>
+    <color name="spendly_chart2_light">#86ADFF</color>
+    <color name="spendly_chart2_dark">#517ECB</color>
+</resources>

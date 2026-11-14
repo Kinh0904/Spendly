@@ -1,18 +1,46 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Source: Spendly-Figma/code.js; Figma px mapped to Android dp/sp. -->
     <style name="Base.Theme.Spendly" parent="Theme.Material3.DayNight.NoActionBar">
-        <item name="colorPrimary">@color/primary_green</item>
-        <item name="colorOnPrimary">@color/white</item>
-        <item name="colorPrimaryContainer">@color/primary_green_light</item>
-        <item name="colorOnPrimaryContainer">@color/primary_green_dark</item>
-        <item name="android:colorBackground">@color/bg_mint_tint</item>
-        <item name="android:statusBarColor">@color/bg_mint_tint</item>
-        <item name="android:windowLightStatusBar">true</item>
+        <item name="colorPrimary">@color/spendly_primary</item>
+        <item name="colorOnPrimary">@color/spendly_on_primary</item>
+        <item name="colorPrimaryContainer">@color/spendly_subtle</item>
+        <item name="colorOnPrimaryContainer">@color/spendly_primary</item>
+        <item name="colorSecondary">@color/spendly_primary</item>
+        <item name="colorOnSecondary">@color/spendly_on_primary</item>
+        <item name="colorSecondaryContainer">@color/spendly_subtle</item>
+        <item name="colorOnSecondaryContainer">@color/spendly_primary</item>
+        <item name="android:colorBackground">@color/spendly_bg</item>
+        <item name="colorOnBackground">@color/spendly_text</item>
+        <item name="colorSurface">@color/spendly_surface</item>
+        <item name="colorOnSurface">@color/spendly_text</item>
+        <item name="colorSurfaceVariant">@color/spendly_subtle</item>
+        <item name="colorOnSurfaceVariant">@color/spendly_muted</item>
+        <item name="colorOutline">@color/spendly_border</item>
+        <item name="colorError">@color/spendly_danger</item>
+        <item name="colorOnError">@color/spendly_bg</item>
+        <item name="colorErrorContainer">@color/spendly_danger_bg</item>
+        <item name="colorOnErrorContainer">@color/spendly_danger</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="fontFamily">sans-serif</item>
+        <item name="android:textColorPrimary">@color/spendly_text</item>
+        <item name="android:textColorSecondary">@color/spendly_muted</item>
+        <item name="android:windowBackground">@color/spendly_bg</item>
+        <item name="android:statusBarColor">@color/spendly_bg</item>
+        <item name="android:navigationBarColor">@color/spendly_surface</item>
+        <item name="android:windowLightStatusBar">@bool/spendly_light_system_bars</item>
+        <item name="android:windowLightNavigationBar">@bool/spendly_light_system_bars</item>
+        <item name="textAppearanceBodyMedium">@style/TextAppearance.Spendly.Body</item>
+        <item name="textAppearanceTitleLarge">@style/TextAppearance.Spendly.Title</item>
+        <item name="textAppearanceLabelLarge">@style/TextAppearance.Spendly.Label</item>
     </style>
-
     <style name="Theme.Spendly" parent="Base.Theme.Spendly" />
 
-    <!-- Custom Card Style -->
+    <!-- Compatibility aliases for layouts using the previous application name. -->
+    <style name="Base.Theme.Spending" parent="Base.Theme.Spendly" />
+    <style name="Theme.Spending" parent="Theme.Spendly" />
+
+    <!-- Existing home/login layouts from develop depend on this widget style. -->
     <style name="Widget.Spendly.CardView" parent="Widget.Material3.CardView.Elevated">
         <item name="cardCornerRadius">20dp</item>
         <item name="cardElevation">2dp</item>
