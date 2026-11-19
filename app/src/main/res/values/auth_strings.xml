@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Chuỗi riêng cho đăng ký / đăng nhập. Nhãn chung vẫn dùng lại từ spendly_strings.xml. -->
+    <string name="auth_phone_optional">Số điện thoại (không bắt buộc)</string>
+    <string name="auth_phone_hint">Ví dụ: 0901234567</string>
+    <string name="auth_name_hint">Nguyễn Văn A</string>
+    <string name="auth_email_hint">ten@example.com</string>
+
+    <string name="auth_back">Quay lại</string>
+    <string name="auth_register_success">Tạo tài khoản thành công. Hãy đăng nhập để bắt đầu.</string>
+
+    <string name="auth_error_name_empty">Vui lòng nhập họ và tên</string>
+    <string name="auth_error_name_short">Họ và tên cần ít nhất 2 ký tự</string>
+    <string name="auth_error_email_empty">Vui lòng nhập email</string>
+    <string name="auth_error_email_invalid">Email chưa đúng định dạng</string>
+    <string name="auth_error_email_taken">Email này đã được đăng ký</string>
+    <string name="auth_error_phone_invalid">Số điện thoại chưa đúng định dạng (ví dụ 0901234567)</string>
+    <string name="auth_error_phone_taken">Số điện thoại này đã được đăng ký</string>
+    <string name="auth_error_password_empty">Vui lòng nhập mật khẩu</string>
+    <string name="auth_error_password_weak">Mật khẩu cần ít nhất 8 ký tự, gồm cả chữ và số</string>
+    <string name="auth_error_confirm_empty">Vui lòng nhập lại mật khẩu</string>
+    <string name="auth_error_confirm_mismatch">Mật khẩu nhập lại không khớp</string>
+    <string name="auth_error_identifier_empty">Vui lòng nhập email hoặc số điện thoại</string>
+    <string name="auth_error_identifier_invalid">Email hoặc số điện thoại chưa đúng định dạng</string>
+    <string name="auth_error_credentials">Email/số điện thoại hoặc mật khẩu không đúng</string>
+    <string name="auth_error_generic">Có lỗi xảy ra, vui lòng thử lại</string>
+</resources>

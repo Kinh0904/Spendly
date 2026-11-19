@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Ô nhập của màn hình đăng ký / đăng nhập: nhãn nằm phía trên, viền bo 12dp theo thiết kế Spendly. -->
+    <style name="Widget.Spendly.Auth.Input" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="hintEnabled">false</item>
+        <item name="errorEnabled">true</item>
+        <item name="boxCornerRadiusTopStart">@dimen/spendly_radius_12</item>
+        <item name="boxCornerRadiusTopEnd">@dimen/spendly_radius_12</item>
+        <item name="boxCornerRadiusBottomStart">@dimen/spendly_radius_12</item>
+        <item name="boxCornerRadiusBottomEnd">@dimen/spendly_radius_12</item>
+        <item name="boxBackgroundColor">@color/spendly_surface</item>
+        <item name="boxStrokeColor">@color/spendly_primary</item>
+        <item name="boxStrokeErrorColor">@color/spendly_danger</item>
+        <item name="errorTextColor">@color/spendly_danger</item>
+        <item name="errorIconTint">@color/spendly_danger</item>
+    </style>
+
+    <style name="TextAppearance.Spendly.Auth.Field" parent="TextAppearance.Spendly.Body">
+        <item name="android:textColor">@color/spendly_text</item>
+        <item name="android:textColorHint">@color/spendly_muted</item>
+    </style>
+
+    <style name="Widget.Spendly.Auth.Label" parent="">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/spendly_space_16</item>
+        <item name="android:layout_marginBottom">@dimen/spendly_space_8</item>
+        <item name="android:textAppearance">@style/TextAppearance.Spendly.Label</item>
+    </style>
+
+    <style name="Widget.Spendly.Auth.Button" parent="Widget.Material3.Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">@dimen/spendly_button_height</item>
+        <item name="android:textAppearance">@style/TextAppearance.Spendly.Label</item>
+        <item name="android:textColor">@color/spendly_on_primary</item>
+        <item name="backgroundTint">@color/spendly_primary</item>
+        <item name="cornerRadius">@dimen/spendly_radius_16</item>
+    </style>
+
+    <style name="Widget.Spendly.Auth.Banner" parent="">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/spendly_space_16</item>
+        <item name="android:padding">@dimen/spendly_space_12</item>
+        <item name="android:textAppearance">@style/TextAppearance.Spendly.Body</item>
+        <item name="android:accessibilityLiveRegion">polite</item>
+        <item name="android:visibility">gone</item>
+    </style>
+</resources>

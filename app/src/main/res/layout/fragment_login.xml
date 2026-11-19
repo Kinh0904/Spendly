@@ -4,6 +4,160 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/bg_mint_tint"
+    android:background="@color/spendly_bg"
     android:fillViewport="true"
-    tools:context=".presentation.auth.login.LoginFragment"/>
+    tools:context=".presentation.auth.login.LoginFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingHorizontal="@dimen/spendly_space_24"
+        android:paddingVertical="@dimen/spendly_space_32">
+
+        <ImageView
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:importantForAccessibility="no"
+            android:src="@drawable/ic_wallet_illustration" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spendly_space_16"
+            android:text="@string/spendly_brand"
+            android:textAppearance="@style/TextAppearance.Spendly.Title"
+            android:textColor="@color/spendly_primary" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spendly_space_24"
+            android:text="@string/spendly_login_title"
+            android:textAppearance="@style/TextAppearance.Spendly.Heading" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spendly_space_8"
+            android:text="@string/spendly_login_description"
+            android:textAppearance="@style/TextAppearance.Spendly.Body"
+            android:textColor="@color/spendly_muted" />
+
+        <!-- Hiện sau khi đăng ký xong -->
+        <TextView
+            android:id="@+id/tvNotice"
+            style="@style/Widget.Spendly.Auth.Banner"
+            android:background="@drawable/bg_spendly_notice_success"
+            android:text="@string/auth_register_success"
+            android:textColor="@color/spendly_success" />
+
+        <!-- Hiện khi đăng nhập sai -->
+        <TextView
+            android:id="@+id/tvFormError"
+            style="@style/Widget.Spendly.Auth.Banner"
+            android:background="@drawable/bg_spendly_notice_error"
+            android:textColor="@color/spendly_danger" />
+
+        <TextView
+            style="@style/Widget.Spendly.Auth.Label"
+            android:layout_marginTop="@dimen/spendly_space_24"
+            android:text="@string/spendly_email_or_phone" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tilIdentifier"
+            style="@style/Widget.Spendly.Auth.Input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etIdentifier"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints="emailAddress"
+                android:hint="@string/spendly_email_or_phone"
+                android:imeOptions="actionNext"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:textAppearance="@style/TextAppearance.Spendly.Auth.Field" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            style="@style/Widget.Spendly.Auth.Label"
+            android:text="@string/spendly_password" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tilPassword"
+            style="@style/Widget.Spendly.Auth.Input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:endIconMode="password_toggle"
+            app:endIconTint="@color/spendly_muted">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints="password"
+                android:hint="@string/spendly_password"
+                android:imeOptions="actionDone"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:textAppearance="@style/TextAppearance.Spendly.Auth.Field" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.checkbox.MaterialCheckBox
+            android:id="@+id/cbRemember"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="-4dp"
+            android:text="@string/spendly_remember_login"
+            android:textAppearance="@style/TextAppearance.Spendly.Body" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnLogin"
+            style="@style/Widget.Spendly.Auth.Button"
+            android:layout_marginTop="@dimen/spendly_space_16"
+            android:text="@string/spendly_login" />
+
+        <TextView
+            android:id="@+id/tvGoRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spendly_space_8"
+            android:background="?attr/selectableItemBackground"
+            android:gravity="center"
+            android:minHeight="@dimen/spendly_touch_target_min"
+            android:text="@string/spendly_create_new_account"
+            android:textAppearance="@style/TextAppearance.Spendly.Label"
+            android:textColor="@color/spendly_primary" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spendly_space_24"
+            android:background="@drawable/bg_spendly_notice_info"
+            android:orientation="vertical"
+            android:padding="@dimen/spendly_space_16">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/spendly_data_rights_title"
+                android:textAppearance="@style/TextAppearance.Spendly.Label"
+                android:textColor="@color/spendly_primary" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spendly_space_4"
+                android:text="@string/spendly_data_rights_description"
+                android:textAppearance="@style/TextAppearance.Spendly.Caption" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

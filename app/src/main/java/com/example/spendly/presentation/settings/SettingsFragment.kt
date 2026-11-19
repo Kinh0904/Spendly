@@ -9,7 +9,9 @@ import android.widget.TextView
 import android.widget.Toast
 import androidx.fragment.app.Fragment
 import com.example.spendly.R
+import com.example.spendly.data.auth.AuthRepository
 import com.example.spendly.databinding.FragmentSettingsBinding
+import com.example.spendly.presentation.auth.login.LoginFragment
 import com.example.spendly.utils.ThemeManager
 
 class SettingsFragment : Fragment() {
@@ -110,6 +112,20 @@ class SettingsFragment : Fragment() {
         binding.btnBudgetSettings.setOnClickListener {
             (activity as? com.example.spendly.MainActivity)?.navigateToFragment(com.example.spendly.presentation.transaction.add.BudgetFragment())
         }
+
+        binding.btnLogout.setOnClickListener { confirmLogout() }
+    }
+
+    private fun confirmLogout() {
+        androidx.appcompat.app.AlertDialog.Builder(requireContext())
+            .setTitle(R.string.spendly_logout_title)
+            .setMessage(R.string.spendly_logout_description)
+            .setNegativeButton(R.string.spendly_stay, null)
+            .setPositiveButton(R.string.spendly_logout) { _, _ ->
+                AuthRepository.getInstance(requireContext()).logout()
+                (activity as? com.example.spendly.MainActivity)?.navigateToFragment(LoginFragment())
+            }
+            .show()
     }
 
     override fun onDestroyView() {

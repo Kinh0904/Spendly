@@ -5,6 +5,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import com.example.spendly.R
+import com.example.spendly.data.auth.AuthRepository
 import com.example.spendly.databinding.FragmentHomeBinding
 import com.example.spendly.utils.NavigationHelper
 import com.example.spendly.MainActivity
@@ -32,6 +34,9 @@ class HomeFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         NavigationHelper.setupBottomToolbar(binding.root, NavigationHelper.Destination.HOME)
+        AuthRepository.getInstance(requireContext()).currentUser()?.let { user ->
+            binding.viewHomeHeader.tvGreetingTitle.text = getString(R.string.spendly_greeting, user.displayName)
+        }
         binding.viewQuickaddSection.btnQuickAddMic.setOnClickListener { (activity as? MainActivity)?.navigateToFragment(VoiceExpenseFragment()) }
         binding.viewQuickaddSection.btnQuickAddPlus.setOnClickListener {
             androidx.appcompat.app.AlertDialog.Builder(requireContext()).setTitle("Thêm khoản chi")
